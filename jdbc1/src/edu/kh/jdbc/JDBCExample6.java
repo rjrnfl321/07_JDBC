@@ -108,6 +108,7 @@ public class JDBCExample6 {
 				if(conn != null) conn.close();
 			} catch (Exception e) {
 				e.printStackTrace();
+				
 			}
 		}
 		
