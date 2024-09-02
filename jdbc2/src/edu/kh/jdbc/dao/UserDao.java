@@ -108,8 +108,8 @@ public class UserDao {
 		try {
 			// 2. SQL 작성
 			String sql = """
-	INSERT INTO TB_USER
-	VALUES(SEQ_USER_NO.NEXTVAL, ?, ?, ?, DEFAULT) """;
+			INSERT INTO TB_USER
+			VALUES(SEQ_USER_NO.NEXTVAL, ?, ?, ?, DEFAULT) """;
 			
 			// 3. PraparedStatement 생성
 			pstmt = conn.prepareStatement(sql);
