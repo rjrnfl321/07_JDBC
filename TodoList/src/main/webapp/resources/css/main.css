@@ -8,12 +8,10 @@
 }
 
 thead th{
-  background-color: aqua;
+  background-color: skyblue;
 }
 
 /* 짝수번째 행 */
 tbody > tr:nth-of-type(2n){
-  background-color: gray; 
-  color: blueviolet;
+  background-color: #dddd; 
 }
-

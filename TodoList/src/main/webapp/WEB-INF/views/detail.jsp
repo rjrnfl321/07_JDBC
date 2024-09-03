@@ -44,7 +44,7 @@
       <button id="deleteBtn">삭제</button>
     </div>
   </div>
-  
+
   <%-- session에 message가 있다면 --%>
   <c:if test="${not empty sessionScope.message}">
     <script>
@@ -54,8 +54,6 @@
 
     <c:remove var="message" scope="session" />
   </c:if>
-
-
 
   <script src="/resources/js/detail.js"></script>
 </body>
